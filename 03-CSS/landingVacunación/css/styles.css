@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #2948C6;
+    --Roboto: 'Roboto', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+.body {
+    font-family: var(--poppins);
+}
+
+.navbar-brand {
+    color: var(--blue)!important;
+    font-family: var(--Roboto);
+    font-weight: bold;
+    font-size: 2rem!important;
+}
+
+.nav-link {
+    color: darkgray!important;
+    font-weight: bold;
+    font-family: var(--poppins);
+}
+
+.banner h1{
+    color: darkblue;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.banner p{
+    color: darkgray!important;
+    font-size: 1.3rem;
+    font-family: var(--poppins);
+    padding: 0 10rem 0 0;
+    margin-right: 3rem;
+}
+
+.banner-items {
+    color: darkblue;
+    font-size: 1rem;
+    padding: 0 10rem 0 0;
+    margin-right: 3rem;
+    font-family: var(--poppins);
+}
+
+.schedule {
+    color: darkblue;
+    font-size: 1.5rem;
+    padding: 0 10rem 0 0;
+    margin-right: 3rem;
+    font-family: var(--poppins);
+}
+
+.yellow {
+    color: #ffd428;
+    background-color: #FFF9E3;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.blue {
+    color: var(--blue);
+    background-color: #E1E9FF;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.schedule {
+    margin-top: 8rem!important;
+    font-family: var(--Montserrat);
+    font-weight: 500;
+}
+
+.imgVaccine {
+    filter: grayscale(100%);
+    opacity:0.1;
+}
+
+#vaccines {
+    width: 100%;
+}
+
+.benefits h2 {
+    color: darkblue;
+    font-weight: 800;
+    font-size: 3rem;
+}
